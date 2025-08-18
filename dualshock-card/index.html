@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dualshock-card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen bg-cover bg-center"
+    style="background-image: url('./assets/image/dualshock-card.png');">
+
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-md z-0"></div>
+
+    <div class="relative z-10 flex items-center justify-center px-4">
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden w-96">
+            <div class="relative">
+                <img src="./assets/image/dualshock.jpg" alt="Product" class="w-full h-56 object-cover">
+                <div class="absolute top-3 right-3 bg-white p-2 rounded-lg shadow">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="p-5">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-xl font-semibold">Dualshock 4</h3>
+                    <span class="text-lg font-semibold text-gray-800">$80</span>
+                </div>
+                <p class="text-gray-500">Midnight Blue</p>
+
+                <div class="flex items-center mt-2">
+                    <span class="font-semibold mr-2">4.8</span>
+                    <div class="flex text-yellow-400">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star text-gray-200"></i>
+                    </div>
+                </div>
+
+                <p class="text-gray-500 text-sm mt-3">
+                    Unleash your color with the arrival of four new styles. Each wireless controller comes loaded with
+                    the same DUALSHOCK®4 features including touch pad, motion sensors and built-in rechargeable battery.
+                </p>
+
+                <button
+                    class="w-full mt-4 bg-purple-100 text-purple-700 font-semibold py-2 rounded-lg hover:bg-purple-200">
+                    Add to cart </button>
+            </div>
+        </div>
+    </div>
+
+</body>

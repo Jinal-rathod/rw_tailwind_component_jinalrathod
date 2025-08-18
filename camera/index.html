@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>camera</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="relative bg-cover bg-center" style="background-image: url('./assets/image/camera.png');">
+
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-md z-0 h-screen "></div>
+
+    <div class="relative z-10 flex items-center justify-center h-screen">
+        <div class="grid grid-cols-1 md:grid-cols-2  max-w-6xl mx-auto p-8 bg-gray-100 rounded-2xl">
+
+            <div class="flex items-center justify-center">
+                <img src="./assets/image/phone.png" alt="" class="max-h-96">
+            </div>
+
+            <div class="py-6 flex flex-col justify-between">
+
+                <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-camera"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">
+                    The sky was cloudless and of a deep dark blue.
+                </h2>
+
+                <p class="text-gray-600 text-sm">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nostrum hic earum, nobis,
+                    odit autem officiis culpa commodi reiciendis laboriosam.
+                </p>
+
+                <p class="underline text-indigo-600">Learn more</p>
+
+                <hr class="border border-gray-300">
+
+                <div class="flex gap-4 items-center">
+                    <div
+                        class="bg-green-500 h-10 w-10 rounded-full text-white flex items-center justify-center font-bold">
+                        LB</div>
+                    <div>
+                        <h2 class="font-semibold text-xl">Luca Blight</h2>
+                        <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, labore.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

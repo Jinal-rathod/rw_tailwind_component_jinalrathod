@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard widgets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="relative bg-cover bg-center" style="background-image: url('./assets/image/dashboard\ widgets.png');">
+
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-md z-0 h-screen "></div>
+
+    <div class="relative z-10 flex items-center justify-center h-screen">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-6xl px-5">
+
+            <div class="flex items-center bg-white shadow rounded-xl p-4">
+                <div class="bg-blue-100 text-blue-600 p-3 text-2xl rounded-lg">
+                    <i class="fa-regular fa-file-lines"></i>
+                </div>
+                <div class="ml-4 flex-1">
+                    <p class="text-sm text-gray-500">Total Tasks</p>
+                    <h2 class="text-xl font-semibold">35</h2>
+                </div>
+                <p class="text-red-500 text-sm">- 25%</p>
+            </div>
+
+            <div class="flex items-center bg-white shadow rounded-xl p-4">
+                <div class="bg-yellow-100 text-yellow-600 p-3 text-2xl rounded-lg">
+                    <i class="fa-solid fa-file-export"></i>
+                </div>
+                <div class="ml-4 flex-1">
+                    <p class="text-sm text-gray-500">Tasks to do</p>
+                    <h2 class="text-xl font-semibold">14</h2>
+                </div>
+                <p class="text-green-500 text-sm">+ 10%</p>
+            </div>
+
+            <div class="flex items-center bg-white shadow rounded-xl p-4">
+                <div class="bg-pink-100 text-pink-600 p-3 text-2xl rounded-lg">
+                    <i class="fa-regular fa-file-excel"></i>
+                </div>
+                <div class="ml-4 flex-1">
+                    <p class="text-sm text-gray-500">Tasks Overdue</p>
+                    <h2 class="text-xl font-semibold">5</h2>
+                </div>
+                <p class="text-red-500 text-sm">- 10%</p>
+            </div>
+
+            <div class="flex items-center bg-white shadow rounded-xl p-4">
+                <div class="bg-green-100 text-green-600 p-3 text-2xl rounded-lg">
+                    <i class="fa-solid fa-file-circle-check"></i>
+                </div>
+                <div class="ml-4 flex-1">
+                    <p class="text-sm text-gray-500">Completed Tasks</p>
+                    <h2 class="text-xl font-semibold">7</h2>
+                </div>
+                <p class="text-green-500 text-sm">+ 20%</p>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
