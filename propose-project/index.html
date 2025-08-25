@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>popular-project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="relative bg-cover bg-center" style="background-image: url('./assets/image/propose-project.png');">
+
+  <div class="absolute inset-0 bg-black/50 backdrop-blur-md z-0"></div>
+
+  <div class="relative z-10 flex items-center justify-center h-screen px-12">
+    <div class="bg-white rounded-xl shadow-md w-96 p-5 relative">
+      <button class="absolute top-3 right-3 text-gray-400 hover:text-gray-600">
+        <span class="bg-indigo-200 rounded-md p-1 text-black"><i class="fa-solid fa-xmark"></i></span>
+      </button>
+
+      <div class="flex items-center space-x-4">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profile"
+          class="w-16 h-16 rounded-full object-cover">
+        <div>
+          <h2 class="font-semibold text-lg">Brad Billy</h2>
+          <p class="text-sm text-gray-500 flex items-center">
+            <span><i class="fa-solid fa-location-dot"></i></span> New York, NY
+          </p>
+        </div>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="grid grid-cols-3 text-center">
+        <div>
+          <p class="text-gray-500 text-sm">Rating</p>
+          <p class="font-semibold flex justify-center items-center gap-1">
+            <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span> <span>4.8</span>
+          </p>
+        </div>
+        <div>
+          <p class="text-gray-500 text-sm">Certificates</p>
+          <p class="font-semibold">25</p>
+        </div>
+        <div>
+          <p class="text-gray-500 text-sm">Project</p>
+          <p class="font-semibold">25</p>
+        </div>
+      </div>
+
+      <button class="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 mt-5 rounded-lg font-medium">
+        Propose a project
+      </button>
+    </div>
+  </div>
+
+</body>
